@@ -1,0 +1,7 @@
+com.apluse.restore.app-pngs-0 E:\mimo\deemo\apluse_restore_android\app\build\generated\res\pngs\debug
+com.apluse.restore.app-resValues-1 E:\mimo\deemo\apluse_restore_android\app\build\generated\res\resValues\debug
+com.apluse.restore.app-packageDebugResources-2 E:\mimo\deemo\apluse_restore_android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.apluse.restore.app-packageDebugResources-3 E:\mimo\deemo\apluse_restore_android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.apluse.restore.app-merged_res-4 E:\mimo\deemo\apluse_restore_android\app\build\intermediates\merged_res\debug
+com.apluse.restore.app-debug-5 E:\mimo\deemo\apluse_restore_android\app\src\debug\res
+com.apluse.restore.app-main-6 E:\mimo\deemo\apluse_restore_android\app\src\main\res

@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.apluse.restore.app-merged_res-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\mimo\\deemo\\apluse_restore_android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "47",
+                        "endOffsets": "100"
+                    },
+                    "to": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "323",
+                        "endColumns": "47",
+                        "endOffsets": "366"
+                    }
+                },
+                {
+                    "source": "E:\\mimo\\deemo\\apluse_restore_android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "323"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "371",
+                        "endLines": "13",
+                        "endColumns": "12",
+                        "endOffsets": "633"
+                    }
+                },
+                {
+                    "source": "E:\\mimo\\deemo\\apluse_restore_android\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "6,2,3,4,5,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "245,57,105,153,199,288",
+                        "endColumns": "41,46,46,44,44,41",
+                        "endOffsets": "282,99,147,193,239,325"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,97,144,191,236,281",
+                        "endColumns": "41,46,46,44,44,41",
+                        "endOffsets": "92,139,186,231,276,318"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#121217">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APLUSE 3.4"
+        android:textSize="22sp"
+        android:textColor="#F4F4F5"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvMagic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="魔术字: --"
+        android:textColor="#A1A1AA"
+        android:textSize="13sp"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <EditText
+            android:id="@+id/etMagic"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:hint="输入 HEX 或文本魔术字"
+            android:textColor="#F4F4F5"
+            android:textColorHint="#52525B"
+            android:background="#27272A"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textSize="14sp"
+            android:fontFamily="monospace"
+            android:singleLine="true"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnApplyMagic"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="应用"
+            android:textSize="13sp"
+            android:layout_marginStart="8dp" />
+
+        <Button
+            android:id="@+id/btnResetMagic"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="默认"
+            android:textSize="13sp"
+            android:layout_marginStart="4dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSelectFolder"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="选择文件夹"
+        android:textSize="15sp"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="扫描伪装文件"
+        android:textSize="15sp"
+        android:enabled="false"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnRestore"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="一键恢复全部"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:enabled="false"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择包含伪装文件的文件夹"
+        android:textColor="#A1A1AA"
+        android:textSize="13sp"
+        android:layout_marginBottom="12dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:max="100"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tvLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#10B981"
+            android:fontFamily="monospace"
+            android:textSize="12sp"
+            android:text="> 等待操作...
+" />
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+#Thu May 07 16:12:13 CST 2026
+base.0=E\:\\mimo\\deemo\\apluse_restore_android\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex
